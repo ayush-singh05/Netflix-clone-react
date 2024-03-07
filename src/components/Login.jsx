@@ -13,7 +13,7 @@ function Login() {
     <div>
       <Header />
       <div className='absolute my-36 mx-auto right-0 left-0 flex justify-center'>
-        <form action="" className='bg-black  p-12 flex flex-col text-white bg-opacity-85'>
+        <form action="" className='bg-black  p-12 flex flex-col text-white bg-opacity-85 rounded-md'>
           <h1 className='font-semibold text-3xl mb-10'>{isSignInForm ? "Sign In" : "Sign Up"}</h1>
 
           {!isSignInForm && <div className='mb-6 w-80'>
